@@ -2,12 +2,23 @@
 
 Course Project.
 
+## Environment Configuration
+
+1. conda environment
+
+```
+conda create --name fashion python=3.10
+conda activate fashion
+#install torch=2.1.0 py=3.10 cuda=11.8 cudnn=8.7.0
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+conda install -c anaconda jupyter
+```
+
 ## Grading Rubic (Checklist)
 
 1. Data Preparation (10 points)
 
 * [ ] Data cleansing and transformation (5 points)
-
 * [ ] Data splitting (i.e., training, validation, and test splits) (5 points)
 
 2. Exploratory Data Analysis (EDA) (10 points)
