@@ -1,7 +1,7 @@
 # ECEN758
 
 This is a course project of doing classification on [mnist-fashion](https://github.com/zalandoresearch/fashion-mnist) dataset. The neural network model is SequeezeNet.
-## Run code for scoring
+## Run Code for Scoring
 The environemnt is well configured in Colab. Please use the [link](https://colab.research.google.com/drive/13NHcv7iiZGY84wxIQ4RBL18D_W5axF7M?usp=sharing) for testing the code. The code is the same as /src/main_for_scoring.ipynb. **Please make sure the GPU is used in Colab by clicking Edit->Notebook Settings->T4 GPU.** To run the code, you can directly click the run button and the result will shown below each block.
 
 ## Code Files Introduction
@@ -10,7 +10,7 @@ The environemnt is well configured in Colab. Please use the [link](https://colab
 - src/data_exploration.ipynb: This is the code for Exploratory Data Analysis.
 
 
-## Environment Configuration
+## Environment Configuration without Using Colab
 
 1. install conda environment
 
