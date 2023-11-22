@@ -161,3 +161,7 @@ cython_debug/
 
 # Dataset
 dataset/
+
+# others
+src/cam_test.ipynb
+src/main.ipynb
