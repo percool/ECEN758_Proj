@@ -2,12 +2,17 @@
 
 Course Project.
 ## Run code for scoring
+The environemnt is well configured in Colab. Please use the [link](https://colab.research.google.com/drive/13NHcv7iiZGY84wxIQ4RBL18D_W5axF7M?usp=sharing) for testing the code. The code is the same as /src/main_for_scoring.ipynb. **Please make sure the GPU is used in Colab by clicking Edit->Notebook Settings->T4 GPU.**
 
+## Code Files Introduction
+- src/main_cv.ipynb: This is the integrated code with cross validation. (It takes long time to run).
+- src/main_for_scoring.ipynb: This is the code for scoring, which has the basic training, validation, and testing function.
+- src/data_exploration.ipynb: This is the code for Exploratory Data Analysis.
 
 
 ## Environment Configuration
 
-1. conda environment
+1. install conda environment
 
 ```
 conda create --name fashion python=3.10
@@ -15,6 +20,11 @@ conda activate fashion
 #install torch=2.1.0 py=3.10 cuda=11.8 cudnn=8.7.0
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 conda install -c anaconda jupyter
+```
+2. install packages
+```
+pip install -U scikit-learn
+pip install grad-cam
 ```
 
 ## Grading Rubic (Checklist)
